@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        
+        <!-- menu -->
+        <div class="menu">
+            <div class="css__pad">
+                <h3 class="">Rental</h3>
+                <h3 class="">from $99</h3>
+                <h4 class="">per night</h4>
+    
+                <form action="" class="form">
+                    <div class="css__mar">
+                        <i class="fa-regular fa-calendar-check "></i>
+                        Check-in
+                    </div>
+                    <input type="text" name="check-in" id="" class="check-in" placeholder="DD MM YYYY" required>
+                    <div class="css__mar">
+                        <i class="fa-regular fa-calendar"></i>
+                        Check-out
+                    </div>
+                    <input type="text" name="check-out" id="" class="check-out"  placeholder="DD MM YYYY" required>
+                    <div class="css__mar">
+                        <i class="fa-solid fa-person"></i>
+                        Adults
+                    </div>
+                    <input type="number" name="" id=""  class="Adults" value="1" min="1" max="6">
+                    <div class="css__mar">
+                        <i class="fa-solid fa-child-reaching"></i>
+                        Kids
+                    </div>
+                    <input type="number" name="" id="" class="kids" value="1" min="1" max="6">
+                    
+                    <button class="btn-submit sub-w100 " type="submit">Search availability </button>
+                </form>
+
+            </div>
+            <div class="" >
+                <div >
+                    <a class="css-a"href="#apatment">
+                        <i class="fa-solid fa-building"></i>
+                        Apatment
+                    </a>
+                </div>
+                <div >
+                    <a class="css-a sub" href="javascript:void(0)">
+                        <i class="fa-solid fa-wifi"></i>
+                        Subscribe
+                    </a>
+                </div>
+                <div >
+                    <a class="css-a" href="#contac">
+                        <i class="fa-solid fa-envelope"></i>
+                        Contact
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+
+        
+    
+        <div class="content">
+            <!-- apatment -->
+            <div id="apatment">
+                <div class="header css__pad" >The Apartment </div>
+                <div class="bgr css__pad">
+                    <div class="slider active">
+                        <img src="./imgs/livingroom.jpg" alt="" class="  imgs">
+                        <div class="text-name">Living Room</div>
+                    </div>
+
+                    <div class="slider">
+                        <img src="./imgs/bedroom.jpg" alt="" class="  imgs">
+                        <div class="text-name">Bed Room</div>
+                    </div>
+
+                    <div class="slider">
+                        <img src="./imgs/diningroom.jpg" alt="" class="  imgs">
+                        <div class="text-name">Dining Room</div>
+                    </div>
+
+                    <div class="slider">
+                        <img src="./imgs/livingroom2.jpg" alt="" class="  imgs">
+                        <div class="text-name">Living Room</div>
+                    </div>
+                </div>
+    
+                <div class="list-room" >
+                    <img src="./imgs/livingroom.jpg" alt="" class="list-imgs opaci">
+                    <img src="./imgs/bedroom.jpg" alt="" class="list-imgs">
+                    <img src="./imgs/diningroom.jpg" alt="" class="list-imgs">
+                    <img src="./imgs/livingroom2.jpg" alt="" class="list-imgs">
+                </div>
+            </div>
+            
+            <div class="css__pad">
+
+                <h2 class="css__mar">The space</h2>
+                <div class="col">
+                    <div class="col-l">
+                        <p>
+                            <i class="fa-solid fa-person"></i>
+                            Max people
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-bath"></i>
+                            Bathrooms
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-bed"></i>
+                            Bedrooms
+                        </p>
+                    </div>
+
+                    <div class="col-r">
+                        <p>
+                            <i class="fa-solid fa-clock"></i>
+                            Check In: After 3PM
+                        </p>
+                        <p>
+                            <i class="fa-regular fa-clock"></i>
+                            Check Out: 12PM
+                        </p>
+                    </div>
+                    
+                </div>
+                <hr>
+
+                <h2 class="css__mar">Amenities</h2>
+                <div class="col">
+                    <div class="col-l">
+                        <p>
+                            <i class="fa-solid fa-shower"></i>
+                            Shower
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-wifi"></i>
+                            WiFi
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-tv"></i>
+                            TV
+                        </p>
+                    </div>
+
+                    <div class="col-r">
+                        <p>
+                            <i class="fa-solid fa-utensils"></i>
+                            Kitchen
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-temperature-three-quarters"></i>
+                            Heating
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-wheelchair"></i>
+                            Accessible
+                        </p>
+                    </div>
+                </div>
+                <hr>
+
+                <h2 class="css__mar">Extra Info</h2>
+                <p>Our apartment is really clean and we like to keep it that way. Enjoy the lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>
+                    We accept: 
+                    <i class="fa-brands fa-cc-visa"></i>
+                    <i class="fa-brands fa-cc-paypal"></i>
+                    <i class="fa-regular fa-credit-card"></i>
+                    <i class="fa-brands fa-cc-discover"></i>
+                </p>
+    
+                <hr>
+                <h2 class="css__mar">Rules</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Subscribe to receive updates on available dates and special offers.</p>
+                <button class="btn-submit sub-w33 sub2">Subscribe</button>
+    
+                <hr>
+                <!-- contac -->
+                <div id="contac">
+                    <h2 class="css__mar">Contact</h2>
+                    <div class="">
+                        Chicago, US
+                    </div>
+                    <div class="">
+                        Phone: +00 151515
+                    </div>
+                    <div class="">
+                        Email: mail@mail.com
+                    </div>
+                    <p>Questions? Go ahead, ask them:</p>
+                    <form action="">
+                        <input type="text" name="" id="" placeholder="Name" class="ip8" required>
+                        <input type="email" name="" id="" placeholder="Gmail" class="ip8" required>
+                        <input type="text" name="" id="" placeholder="Message" class="ip8" required>
+                        <button class="btn-submit sub-w33">Send a Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- container subscribe -->
+        <div class="subscribe">
+            <div class="container">
+                <i class="fa-solid fa-xmark css__pad"></i>
+                <div class="header">SUBSCRIBE</div>
+                <p>Join our mailing list to receive updates on available dates and special offers.</p>
+                <input type="text" name="" id="" placeholder="Enter e-mail">
+                <button class="btn-submit subConta">Subscribe</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
